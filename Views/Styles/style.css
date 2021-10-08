@@ -1,0 +1,100 @@
+#navbar ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    left: 0;
+    right: 0;
+  }
+  
+#esquerda {
+    float: left;
+  }
+
+#direita {
+    float: right;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+  
+#navbar  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 34px 30px;
+    text-decoration: none;
+  }
+  
+#navbar  li a:hover {
+    background-color: #111;
+  }
+
+#navbar img {
+    padding:
+            20px  /* superior */
+            30px  /* direita */
+            20px  /* inferior */
+            30px; /* esquerda */
+    height: 40px;
+}
+
+#home {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    padding: 0 0 0 0;
+    text-align: center;
+    color: white;
+    background: url("../Assets/fundo-home.png") no-repeat top center scroll ;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+#home h1 {
+    padding-top: 15%;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px 30px black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 72pt;
+}
+
+#home h5 {
+    margin-top: 50px;
+    text-shadow: 5px 5px 25px black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18pt;
+    padding-bottom: 50px;
+}
+
+#separador {
+    width: 322px;
+    height: 12px;
+    background-color: #f6555f;
+    margin: auto;
+    box-shadow: 5px 5px 25px black;
+}
+
+#botaoQueroConhecer {
+    padding: 10px 50px;
+    border-radius: 25px;
+    background-color: #FFF;
+    margin: auto;
+    box-shadow: 5px 5px 50px black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}

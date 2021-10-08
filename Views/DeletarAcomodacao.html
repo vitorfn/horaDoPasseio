@@ -1,0 +1,21 @@
+<!-- 
+    Pagina destinada a exclusão de acomodação;
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">   
+    </head>
+<body>
+    <!--Inicio do nosso formulario -->
+    <h1>Excluir Acomodação Por ID Quarto</h1>
+    <form action="../Controllers/C_excluirAcomodacao.php" method="POST">
+        ID Quarto: <input type="text" placeholder="Somente Numeros" name="idQuarto">
+        <br><br>
+        <input type="hidden" name="acao" value="deletar"/>
+        <input type="submit" value="Buscar" name="cadastrar"/>
+    </form>
+
+</body>
+
+</html>

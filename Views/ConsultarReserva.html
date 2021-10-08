@@ -1,0 +1,21 @@
+<!-- 
+    Pagina destinada a consulta de acomodações;
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">   
+    </head>
+<body>
+    <!--Inicio do nosso formulario -->
+    <h1>Consultar Reserva</h1>
+    <form action="../Controllers/C_consultarReserva.php" method="POST">
+        ID Reserva: <input type="text" placeholder="Somente Numeros" name="idReserva">
+        <br><br>
+        <input type="hidden" name="acao" value="inserir"/>
+        <input type="submit" value="Consultar" name="cadastrar"/>
+    </form>
+
+</body>
+
+</html>

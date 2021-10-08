@@ -1,0 +1,21 @@
+<!-- 
+    Pagina destinada a alteração de acomodacao;
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">   
+    </head>
+<body>
+    <!--Inicio do nosso formulario -->
+    <h1>Alterar Reserva Por ID</h1>
+    <form action="../Controllers/C_alterarReserva.php" method="POST">
+        ID Reserva: <input type="text" placeholder="Somente Numeros" name="idReserva">
+        <br><br>
+        <input type="hidden" name="acao" value="alterar"/>
+        <input type="submit" value="Buscar" name="cadastrar"/>
+    </form>
+
+</body>
+
+</html>

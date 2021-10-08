@@ -1,0 +1,46 @@
+<!-- 
+    Pagina destinada ao cadastro de donos;
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Entrada de dados</title>
+        <style>
+        .error {color: #FF0000;}
+        </style>    
+    </head>
+<body>
+    <!--Inicio do nosso formulario -->
+    <h1>Formulario de cadastro</h1>
+    <p><span class="error"> * Campos obrigatórios</span></p>
+    <form action="../Controllers/C_cadastrarDono.php" method="POST">
+    <!--$_SERVER["PHP_SELF"] é uma variável super global  -->
+        CPF: <input type="number" placeholder="Entre com seu CPF (somente números)" name="CPF" minlength="11" maxlength="11" autofocus>
+        <span class="error">*</span>
+        <br><br>
+        Nome: <input type="text" placeholder="Entre com seu nome" name="nome">
+        <span class="error">*</span>
+        <br><br>
+        Telefone: <input type="text" placeholder="Entre com seu telefone" name="telefone">
+        <span class="error">*</span>
+        <br><br>
+        E-mail: <input type="email" placeholder="Entre com seu e-mail" name="email">
+        <span class="error">*</span>
+        <br><br>
+        Nascimento: <input type="date" name="data_nascimento" >
+        <span class="error">*</span>
+        <br><br>  
+        Endereco: <input type="text" placeholder="Entre com seu endereço" name="endereco">
+        <span class="error">*</span>
+        <br><br>
+        Senha: <input type="password" placeholder="**********" name="senha">
+        <span class="error">*</span>
+        <br><br>
+            <input type="hidden" value="inserir"/>
+            <input type="submit" value="Cadastrar" name="cadastrar"/>
+    </form>
+    <br><br><br><a href='../index.html'>Voltar Para o Menu Principal</a>
+</body>
+
+</html>

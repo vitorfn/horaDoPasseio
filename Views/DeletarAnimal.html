@@ -1,0 +1,21 @@
+<!-- 
+    Pagina destinada a exclusão de animal;
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">   
+    </head>
+<body>
+    <!--Inicio do nosso formulario -->
+    <h1>Excluir Animal Por Id Animal</h1>
+    <form action="../Controllers/C_excluirAnimal.php" method="POST">
+        Id Animal: <input type="text" placeholder="Somente Numeros" name="idAnimal">
+        <br><br>
+        <input type="hidden" name="acao" value="deletar"/>
+        <input type="submit" value="Buscar" name="cadastrar"/>
+    </form>
+
+</body>
+
+</html>

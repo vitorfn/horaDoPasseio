@@ -1,0 +1,21 @@
+<!-- 
+    Pagina destinada a exclusão de serviços extras;
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">   
+    </head>
+<body>
+    <!--Inicio do nosso formulario -->
+    <h1>Excluir serviços extras por ID</h1>
+    <form action="../Controllers/C_excluirServicoExtra.php" method="POST">
+        ID Serviço Extra: <input type="text" placeholder="Somente Numeros" name="idServico">
+        <br><br>
+        <input type="hidden" name="acao" value="deletar"/>
+        <input type="submit" value="Buscar" name="cadastrar"/>
+    </form>
+
+</body>
+
+</html>

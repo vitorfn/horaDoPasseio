@@ -1,0 +1,22 @@
+<!-- 
+    Pagina destinada a realizar login;
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">   
+    </head>
+<body>
+    <!--Inicio do nosso formulario -->
+    <h1><Login></h1>
+    <form action="../Controllers/C_loginFunc.php" method="POST">
+        CPF: <input type="text" placeholder="CPF" name="CPF">
+        Senha: <input type="password" placeholder="Senha" name="senha">
+        <br><br>
+        <input type="hidden" name="acao" value="login"/>
+        <input type="submit" value="Login" name="cadastrar"/>
+    </form>
+
+</body>
+
+</html>

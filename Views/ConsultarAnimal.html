@@ -1,0 +1,21 @@
+<!-- 
+    Pagina destinada a consulta de animais;
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">   
+    </head>
+<body>
+    <!--Inicio do nosso formulario -->
+    <h1>Consultar Animal por CPF do Dono</h1>
+    <form action="../Controllers/C_consultarAnimal.php" method="POST">
+        CPF: <input type="text" placeholder="Somente Numeros" name="CPF">
+        <br><br>
+        <input type="hidden" name="acao" value="inserir"/>
+        <input type="submit" value="Consultar" name="cadastrar"/>
+    </form>
+
+</body>
+
+</html>
